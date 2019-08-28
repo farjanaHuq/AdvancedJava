@@ -29,10 +29,10 @@ public class Main {
 		 * Parameters / Arguments: Values passed to a method
 		 * 
 		 */
-		System.out.println(addThem(1,2));
+		//System.out.println(addThem(1,2));
 		int d = 5;
 		tryToChange(d);
-		System.out.println("Main d " + d);
+		//System.out.println("Main d " + d);
 		
 		System.out.println("The random number is: " + getRandomNum());
 		
@@ -64,6 +64,7 @@ public class Main {
 		randomNumber = (int)(Math.random()*51);
 		return randomNumber;
 	}
+	//Guess Number
 	public static int checkGuess(int randomGuess) {
 		
 		if(randomGuess <getRandomNum()|randomGuess >getRandomNum() ) {
