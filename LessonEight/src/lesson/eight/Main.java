@@ -1,5 +1,6 @@
 package lesson.eight;
 import java.util.Arrays;
+//import org.apache.common.lang3.ArrayUtils;
 
 
 public class Main {
@@ -9,7 +10,7 @@ public class Main {
 		
 		
 		MonsterTwo.builtBattleBoard();
-		
+//		char tempBattleBoard = new char[10][10];		
 		//ObjectName[] ArrayName = new ObjectName[4];
 		MonsterTwo[] Monsters = new MonsterTwo[4];
 		
