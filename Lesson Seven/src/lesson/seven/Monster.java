@@ -4,7 +4,7 @@ public class Monster {
     public final String TOMBSTONE = "HERE LIES A DEAD MONSTER";
     
     private int health = 500;
-    int attack = 20;
+    private int attack = 20;
     private int movement = 2;
     private int xPosition = 0;
     private int yPostion = 0;
