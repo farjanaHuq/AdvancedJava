@@ -1,14 +1,12 @@
 package lesson.ten;
 import java.util.Arrays;
 
-public class MonsterTwo {
-	import java.util.Arrays;
 
-	public class MonsterTwo {
+public class MonsterTwo {
 	    
 		static char[][] battleBoard = new char[10][10];
 		
-		//print two dimentional array of stars
+		//print two dimensional array of stars
 		public static void builtBattleBoard() {
 			for(char[] row: battleBoard) {
 				Arrays.fill(row, '*');
