@@ -1,5 +1,11 @@
 package lesson.fourteen;
 
+//Cat is a Subclass of Animal
+//You create subclasses with the extends keyword
+//Now Cat has all the Methods and Fields that Animal defined
+//This is known as inheritance because Cat inherits all
+//the methods and fields defined in Animal
+
 public class Cats extends Animal{
    public String favToy = "Yarn";
    
