@@ -1,6 +1,6 @@
 package lesson.fifteen;
 
-public class Vehicle implements Drivable {
+public class Vehicle extends Crashable implements Drivable {
 	
 	int numOfWheels = 4;
 	double theSpeed = 40;
@@ -41,6 +41,17 @@ public class Vehicle implements Drivable {
 	public Vehicle(int noOfWheels, double speed) {
 		this.numOfWheels = noOfWheels;
 		this.theSpeed = speed;
+	}
+
+	@Override
+	public void setCarStrength(int carStrength) {
+	       this.strength = carStrength;
+	}
+
+	@Override
+	public int getCarStrength() {
+		return this.strength;
+		
 	}
 	
 	

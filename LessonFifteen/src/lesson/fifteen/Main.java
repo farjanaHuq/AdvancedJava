@@ -9,7 +9,8 @@ public class Main {
 		System.out.println("Num of wheels: " + bus.getWheels());
 		System.out.println("The speed of the bus is: " + bus.getSpeed());
 		
-
+		bus.setCarStrength(10);
+        System.out.println("The strength of the car is: "+ bus.getCarStrength());
 	}
 
 }
